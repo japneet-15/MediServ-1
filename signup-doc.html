@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="signup.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="login-wrap">
+        <div class="login-html">
+          
+            <div class="login-form">
+                
+                <div class="sign-up-htm">
+                    <form action="/seller" method="post">
+
+                        <div class="group">
+                            <label for="user" class="label">Name</label>
+                            <input name="user" type="text" class="input" required>
+                        </div>
+                    
+                        <div class="group">
+                            <label for="email" class="label">E-mail</label>
+                            <input name="email" type="email" class="input" data-type="email" required>
+                        </div>
+                        <div class="group">
+                            <label for="sellerid" class="label">Seller-id</label>
+                            <input name="sellerid" type="text" class="input">
+                        </div>
+                        
+                        <div class="group">
+                            <label for="pincode" class="label">Pincode</label>
+                            <input name="pincode" type="number" class="input">
+                        </div>
+                        <div class="group">
+                            <label for="locality" class="label">Locality</label>
+                            <input name="locality" type="text" class="input" data-type="text">
+                        </div>
+                        <div class="group">
+                            <label for="city" class="label">City</label>
+                            <input name="city" type="text" class="input">
+                        </div>
+                        <div class="group">
+                            <button class="btn" type="submit">submit</button>
+                        </div>
+                    </form>    
+                        <div class="hr"></div>
+                        <div class="foot-lnk">
+                            <a href="index.html"><label for="tab-1">Already Member?</a>
+                        </div>
+                    
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+    let next = document.getElementById('next')
+    next.onclick = function()
+    {
+        location.href = "documents-doc.html"
+    }
+</script>
+</html>
